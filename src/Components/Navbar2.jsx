@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-export const Navbar = () => {
+export const Navbar2 = () => {
 
     const [nav, setNav] = useState(false);
     //function is responsib le for toggling the navigation 
