@@ -1,18 +1,18 @@
 import {
     FaReact,
-    FaHtml5, FaCss3, FaJava, FaInstagram, FaLinkedin
-
+    FaHtml5, FaCss3, FaJava, FaInstagram, FaLinkedin,FaTwitter
 } from "react-icons/fa";
 
-import { BiLogoJavascript } from "react-icons/bi";
-import { SiExpress, SiMysql } from "react-icons/si";
+import { BiLogoJavascript,BiLogoTailwindCss ,BiLogoNodejs,
+    BiLogoSpringBoot,} from "react-icons/bi";
+import { SiExpress, SiMysql ,SiPostman,SiJira,SiEclipseche} from "react-icons/si";
 import {
     VscVscode,
     VscCommentUnresolved,
     VscTerminalPowershell
 } from "react-icons/vsc";
 
-import { FaGitAlt, FaTwitter } from "react-icons/fa";
+import { FaGitAlt,FaJenkins,} from "react-icons/fa";
 import { MdGroups3 } from "react-icons/md";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -80,7 +80,7 @@ export const SKILLS = [
 
     {
         id: "04",
-        icon: FaReact,
+        icon: BiLogoTailwindCss,
         skill: "Tailwind Css",
         progress: 95,
         type: "frontend",
@@ -89,7 +89,7 @@ export const SKILLS = [
 
     {
         id: "05",
-        icon: FaReact,
+        icon: BiLogoJavascript,
         skill: "JS",
         progress: 95,
         type: "frontend",
@@ -108,7 +108,7 @@ export const SKILLS = [
 
     {
         id: "07",
-        icon: FaReact,
+        icon: BiLogoNodejs,
         skill: "node js",
         progress: 95,
         type: "Backend",
@@ -117,7 +117,7 @@ export const SKILLS = [
 
     {
         id: "08",
-        icon: FaReact,
+        icon: BiLogoSpringBoot,
         skill: "Spring Boot",
         progress: 95,
         type: "Backend",
@@ -125,7 +125,7 @@ export const SKILLS = [
     },
     {
         id: "09",
-        icon: FaReact,
+        icon: FaJenkins,
         skill: "Jenkins",
         progress: 95,
         type: "Tools",
@@ -133,7 +133,7 @@ export const SKILLS = [
     },
     {
         id: "10",
-        icon: FaReact,
+        icon: SiPostman,
         skill: "Postman",
         progress: 95,
         type: "Tools",
@@ -141,7 +141,7 @@ export const SKILLS = [
     },
     {
         id: "11",
-        icon: FaReact,
+        icon: SiJira,
         skill: "Jira",
         progress: 95,
         type: "Tools",
@@ -165,7 +165,7 @@ export const SKILLS = [
     },
     {
         id: "14",
-        icon: FaReact,
+        icon: MdGroups3,
         skill: "Collaboration",
         progress: 95,
         type: "Skills",
@@ -173,7 +173,7 @@ export const SKILLS = [
     },
     {
         id: "15",
-        icon: FaReact,
+        icon: VscCommentUnresolved,
         skill: "Problem Solving",
         progress: 95,
         type: "Skills",
@@ -190,15 +190,15 @@ export const SKILLS = [
    
     {
         id: "17",
-        icon: FaReact,
-        skill: "NoSQL",
+        icon: SiMysql,
+        skill: "SQL",
         progress: 95,
         type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
     {
         id: "18",
-        icon: FaReact,
+        icon: FaGitAlt,
         skill: "Git",
         progress: 95,
         type: "Tools",
@@ -206,14 +206,14 @@ export const SKILLS = [
     },
     {
         id: "19",
-        icon: FaReact,
+        icon: SiEclipseche,
         skill: "Eclipse",
         progress: 95,
         type: "Tools",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     }, {
         id: "20",
-        icon: FaReact,
+        icon: VscVscode,
         skill: "VsCode",
         progress: 95,
         type: "Tools",
@@ -231,10 +231,11 @@ export const ABOUT_ME = {
 ✅ Debug and analyze logs using Kibana to ensure optimal system performance.
 ✅ Deliver front-end enhancements using React and JavaScript, improving user experience.`,
     socialLinks: [
-        { id: "01", label: "Instagram", icon: FaInstagram, link: "#" },
-        { id: "02", label: "Twitter", icon: FaTwitter, link: "#" },
+        { id: "01", label: "LinkedIn", icon: FaLinkedin, link: "#" },
+        { id: "02", label: "Naukuri", icon:FaLinkedin , link: "#" },
         { id: "03", label: "Instagram", icon: FaInstagram, link: "#" },
-        { id: "04", label: "Instagram", icon: FaLinkedin, link: "#" },
+        { id: "03", label: "Twitter", icon: FaXTwitter, link: "#" },
+        // { id: "04", label: "Instagram", icon: FaLinkedin, link: "#" },
     ],
     email: "jamalveve01@gmail.com",
     phone: "918940878122",
