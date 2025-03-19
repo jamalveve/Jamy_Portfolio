@@ -74,11 +74,10 @@ const Navbar = () => {
                     ))}
                 </ul>
 
-                <button className='hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-to-r from-blue-500 to-purple-500 
-                rounded-full px-9 transition-transform duration-300 ease-in-out hover:scale-105'>Hire Me</button>
+                <button className=' hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-to-r from-blue-500 to-purple-500 
+                rounded-full px-6  transition-transform duration-200  hover:scale-108'
+                >Hire Me</button> 
             </div>
-            {/* hire mee button */}
-            {/* <div className='flex'>helo</div> */}
         </nav>
     )
 }

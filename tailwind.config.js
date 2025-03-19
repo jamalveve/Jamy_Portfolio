@@ -7,15 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#F6A64F",
+        primary: "#0062ff",
         secondary: "#b56141",
         background: "#FFFCF8",
         white: '#FBFBFB'
       },
-     backgroundImage:{
-       'gradient-primary':'linear-gradient(to right, #f4a44f, #ac573f)',
-     },
-    },
+      backgroundImage: {
+        'gradient-primary': 'linear-gradient(to right, #F6A64F, #b56141)', // Correct gradient definition
+      
+      },
   },
   plugins: [],
 }

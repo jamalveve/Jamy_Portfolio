@@ -22,11 +22,11 @@ function App() {
   </div>
 </div> */}
       <Navbar/>
-      {/* <Hero />
-      <AboutMe/>
+       <Hero /> 
+    {/* <AboutMe/>
       <TechnicalProfiency/>
-      <Footer/>
-       */}
+      <Footer/> */}
+       
 
     </>
   )
