@@ -35,7 +35,7 @@ const MyProject = () => {
         <section id='project' className='mt-14'>
             <div className='container mx-auto px-8 md:px-10 py-10'>
                 <div className='w-full lg:w-[60vw] mx-auto'>
-                    <h4 className='section-title'>Recent Projects</h4>
+                    <h4 className=' text-center section-tittle'>Recent Projects</h4>
                     <p className='text-sm text-center mt-4 leading-6'>
                         From concept to deployment, my projects highlight my technical expertise in clean code, performance, and user experience.
                     </p>

@@ -4,8 +4,8 @@ import Navbar from './Components/Navbar'
 import Hero from './sections/Hero'
 import AboutMe from './sections/AboutMe'
 import TechnicalProfiency from './sections/TechnicalProfiency'
-import Footer from './sections/Footer'
 import MyProject from './sections/MyProject'
+import ContactMe from './sections/ContactMe'
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
       <TechnicalProfiency />
       <AboutMe />
       <MyProject/>
+      <ContactMe/>
 
       {/* 
       <Footer/> */}
