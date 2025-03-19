@@ -43,9 +43,9 @@ export const STATS = [
 export const SKILL_TABS = [
     { id: "01", label: "All", value: "all" },
     { id: "02", label: "Frontend", value: "frontend" },
-    { id: "03", label: "Backend", value: "backend" },
-    { id: "04", label: "Tools", value: "tools" },
-    { id: "05", label: "Skills", value: "soft-skills" },
+    { id: "03", label: "Backend", value: "Backend" },
+    { id: "04", label: "Tools", value: "Tools" },
+    { id: "05", label: "Skills", value: "Skills" },
 ];
 
 
@@ -58,6 +58,7 @@ export const SKILLS = [
         type: "frontend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
+    
 
     {
         id: "02",
@@ -93,14 +94,14 @@ export const SKILLS = [
         progress: 95,
         type: "frontend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
-    }, ,
+    }, 
 
     {
         id: "06",
         icon: FaJava,
         skill: "Java",
         progress: 95,
-        type: "frontend",
+        type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
 
@@ -108,20 +109,117 @@ export const SKILLS = [
     {
         id: "07",
         icon: FaReact,
-        skill: "Spring Boot",
+        skill: "node js",
         progress: 95,
-        type: "frontend",
+        type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
 
     {
         id: "08",
         icon: FaReact,
-        skill: "React JS",
+        skill: "Spring Boot",
         progress: 95,
-        type: "frontend",
+        type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
+    {
+        id: "09",
+        icon: FaReact,
+        skill: "Jenkins",
+        progress: 95,
+        type: "Tools",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "10",
+        icon: FaReact,
+        skill: "Postman",
+        progress: 95,
+        type: "Tools",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "11",
+        icon: FaReact,
+        skill: "Jira",
+        progress: 95,
+        type: "Tools",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "12",
+        icon: FaReact,
+        skill: "Fortify",
+        progress: 95,
+        type: "Tools",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "13",
+        icon: FaReact,
+        skill: "Elastic-Search",
+        progress: 95,
+        type: "Backend",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "14",
+        icon: FaReact,
+        skill: "Collaboration",
+        progress: 95,
+        type: "Skills",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "15",
+        icon: FaReact,
+        skill: "Problem Solving",
+        progress: 95,
+        type: "Skills",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "16",
+        icon: FaReact,
+        skill: "someother",
+        progress: 95,
+        type: "Skills",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+   
+    {
+        id: "17",
+        icon: FaReact,
+        skill: "NoSQL",
+        progress: 95,
+        type: "Backend",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "18",
+        icon: FaReact,
+        skill: "Git",
+        progress: 95,
+        type: "Tools",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+    {
+        id: "19",
+        icon: FaReact,
+        skill: "Eclipse",
+        progress: 95,
+        type: "Tools",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    }, {
+        id: "20",
+        icon: FaReact,
+        skill: "VsCode",
+        progress: 95,
+        type: "Tools",
+        description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
+    },
+   
 ]
 export const ABOUT_ME = {
     content: `Passionate Full-Stack Developer with expertise in both back-end and front-end development. Holding a Bachelor of Engineering in Computer Science, I have hands-on experience in building scalable applications using Java, JavaScript, React, and Spring Boot. Currently working as a Software Developer in the gaming domain, where I:

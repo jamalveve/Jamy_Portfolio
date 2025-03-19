@@ -49,4 +49,7 @@
         @apply  w-[300px] md:w-[300px] h-[260px] md:h-[240px]  justify-center items-center flex mt-5 
         rotate-[5.75deg] transition-transform duration-300 ease-in-out hover:scale-105 hover:rotate-[3deg];
      }
+     .section-tittle{
+@apply text-[26px] font-semibold text-left text-center bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent;
+     }
  }

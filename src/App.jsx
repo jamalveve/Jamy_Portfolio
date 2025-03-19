@@ -5,7 +5,6 @@ import Hero from './sections/Hero'
 import AboutMe from './sections/AboutMe'
 import TechnicalProfiency from './sections/TechnicalProfiency'
 import Footer from './sections/Footer'
-import { Navbar2 } from './Components/Navbar2'
 
 
 function App() {
@@ -23,8 +22,9 @@ function App() {
 </div> */}
       <Navbar/>
        <Hero /> 
+       <TechnicalProfiency/>
+
     {/* <AboutMe/>
-      <TechnicalProfiency/>
       <Footer/> */}
        
 
