@@ -1,11 +1,11 @@
 import {
     FaReact,
-    FaHtml5, FaCss3, FaJava, FaInstagram, FaLinkedin,FaTwitter
+    FaHtml5, FaCss3, FaJava, FaInstagram, FaLinkedin,
 } from "react-icons/fa";
 
 import { BiLogoJavascript,BiLogoTailwindCss ,BiLogoNodejs,
-    BiLogoSpringBoot,} from "react-icons/bi";
-import { SiExpress, SiMysql ,SiPostman,SiJira,SiEclipseche} from "react-icons/si";
+    BiLogoSpringBoot,BiLogoTwitter} from "react-icons/bi";
+import { SiExpress, SiMysql ,SiPostman,SiJira,SiEclipseche,} from "react-icons/si";
 import {
     VscVscode,
     VscCommentUnresolved,
@@ -14,14 +14,16 @@ import {
 
 import { FaGitAlt,FaJenkins,} from "react-icons/fa";
 import { MdGroups3 } from "react-icons/md";
-import { FaXTwitter } from "react-icons/fa6";
+// import { FtaXTwitter } from "react-icons/fa6";
 
-// import PROJECT_IMG_1 from "../assets/Images/DH_Portfolio"
-// import PROJECT_IMG_2 from "../assets/Images/Obfeed_fo"
-// import PROJECT_IMG_3 from "../assets/Images/DH_Portfolio"
-// import PROJECT_IMG_4 from "../assets/Images/Tic_Tac_Toe.jpg"
-// import PROJECT_IMG_5 from "../assets/Images/Tic_Tac_Toe.jpg"
-// import PROJECT_IMG_6 from "../assets/Images/Tic_Tac_Toe.jpg"
+// import PROJECT_IMG_1 from '../assets/Images/Profile.jpg'
+
+import PROJECT_IMG_1 from "../assets/Images/DIFP.png"
+import PROJECT_IMG_2 from "../assets/Images/DH_Portfolio.jpg"
+import PROJECT_IMG_3 from "../assets/Images/Tic_Tac_Toe.jpg"
+import PROJECT_IMG_4 from "../assets/Images/sports.jpg"
+// import PROJECT_IMG_5 from "../assets/Images/multi_sport.webp"
+import PROJECT_IMG_5 from "../assets/Images/sport_betting.jpeg"
 
 
 export const MENU_LINKS = [
@@ -234,7 +236,7 @@ export const ABOUT_ME = {
         { id: "01", label: "LinkedIn", icon: FaLinkedin, link: "#" },
         { id: "02", label: "Naukuri", icon:FaLinkedin , link: "#" },
         { id: "03", label: "Instagram", icon: FaInstagram, link: "#" },
-        { id: "03", label: "Twitter", icon: FaXTwitter, link: "#" },
+        { id: "03", label: "Twitter", icon: BiLogoTwitter, link: "#" },
         // { id: "04", label: "Instagram", icon: FaLinkedin, link: "#" },
     ],
     email: "jamalveve01@gmail.com",
@@ -243,38 +245,38 @@ export const ABOUT_ME = {
 }
 
 
-// export const PROJECTS = [
-//     {
-//         id: 1, title:
-//             "FLex Printing Web App using HTML css SQL| Advetisement Website", image: PROJECT_IMG_1,
-//         tags: ["React", "Express. js", "MongoDB", "Node. js"]
-//     },
+export const PROJECTS = [
+    {
+        id: 1, title:
+            "FLex Printing Web App using HTML css | Advetisement Website", image: PROJECT_IMG_1,
+            tags: ["HTML", "CSS","JS"]
+        },
 
-//     {
-//         id: 2, title:
-//             " Portfolio Website Using HTML Css Js| Portfolio Website in JS", image: PROJECT_IMG_2,
-//         tags: ["React", "HTML", "CSS"]
-//     },
+    {
+        id: 2, title:
+            " Portfolio Website Using HTML Css SQL| Portfolio Website in JS", image: PROJECT_IMG_2,
+        tags: [ "HTML", "CSS","JS","SQL"]
+    },
 
-//     {
-//         id: 3, title:
-//             "Responsive Portfolio Website Using React JS | Portfolio Website in React", image: PROJECT_IMG_3,
-//         tags: ["React", "HTML", "CSS"]
-//     },
-//     {
-//         id: 4, title:
-//             "Market Templates FrontEnd | Gaming Website in React", image: PROJECT_IMG_4,
-//         tags: ["React", "HTML", "CSS"]
-//     },
-//     {
-//         id: 5, title:
-//             "Market Templates BackEnd| Gaming Website in Java", image: PROJECT_IMG_5,
-//         tags: ["React", "HTML", "CSS"]
-//     },
-//     {
-//         id: 6, title:
-//             "Responsive Portfolio Website Using React JS | Portfolio Website in React", image: PROJECT_IMG_6,
-//         tags: ["React", "HTML", "Tailwind CSS"]
-//     },
-// ]
+    {
+        id: 3, title:
+            " My Own Tic-Tac-Toe Game! 🎮 |✅ Interactive gameplay with dynamic UI",image: PROJECT_IMG_3,
+        tags: ["React", "HTML", "Tailwind css,JS"]
+    },
+    {
+        id: 4, title:
+            "Market Templates FrontEnd | Gaming Website in React", image: PROJECT_IMG_4,
+        tags: ["React", "HTML", "CSS"]
+    },
+    {
+        id: 5, title:
+            "Market Templates BackEnd| Gaming Website in Java", image: PROJECT_IMG_5,
+        tags: ["Java", "Spring Boot",]
+    },
+    // {
+    //     id: 6, title:
+    //         "Responsive Portfolio Website Using React JS | Portfolio Website in React", image: PROJECT_IMG_6,
+    //     tags: ["React", "HTML", "Tailwind CSS"]
+    // },
+]
 

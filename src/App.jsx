@@ -5,7 +5,7 @@ import Hero from './sections/Hero'
 import AboutMe from './sections/AboutMe'
 import TechnicalProfiency from './sections/TechnicalProfiency'
 import Footer from './sections/Footer'
-
+import MyProject from './sections/MyProject'
 
 function App() {
 
@@ -15,6 +15,7 @@ function App() {
       <Hero />
       <TechnicalProfiency />
       <AboutMe />
+      <MyProject/>
 
       {/* 
       <Footer/> */}

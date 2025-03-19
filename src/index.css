@@ -52,4 +52,7 @@
      .section-tittle{
 @apply text-[26px] font-semibold text-left text-center bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent;
      }
+     .arrow-buton{
+        @apply absolute top-1/2 transform transform -translate-y-1/2 bg-blue-200   text-violet-800 p-2 rounded-full shadow;
+     }
  }
