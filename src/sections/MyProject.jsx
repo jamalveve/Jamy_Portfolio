@@ -32,7 +32,7 @@ const MyProject = () => {
     }, [emblaApi]);
 
     return (
-        <section id='project' className='mt-14'>
+        <section id='projects' className='mt-2'>
             <div className='container mx-auto px-8 md:px-10 py-10'>
                 <div className='w-full lg:w-[60vw] mx-auto'>
                     <h4 className=' text-center section-tittle'>Recent Projects</h4>

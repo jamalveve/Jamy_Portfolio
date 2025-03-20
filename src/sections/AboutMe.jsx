@@ -1,9 +1,10 @@
 import React from 'react';
 import Profile_Pic from '../assets/Images/Profile.jpg'
 import { ABOUT_ME } from '../utils/data';
+
 const AboutMe = () => {
     return(
-<section id="About" className='container mx-auto px-8 py-16'>
+<section id="about" className='container mx-auto px-8 py-16 md:mt-[-1]'>
 <div className='flex flex-col lg:flex-row gap-16 items-start justify between'>
 <h4 className=' lg:hidden block w-[200px] section-tittle text-left'>ABout Me</h4>
 
@@ -21,13 +22,20 @@ const AboutMe = () => {
 
 </div>
 <div className='flex gap-4 mt-6'>
-{ABOUT_ME.socialLinks.map((item)=>(
-    <a key={item.label} className="cursor-pointer group">
-<item.icon className='text-2xl text-blue-700 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-115
-group-hover:translate-y-[-2px] group-hover:text-violet-800'/>
+{ABOUT_ME.socialLinks.map((item) => (
+        <a
+          key={item.id}
+          className="cursor-pointer group"
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={item.label} // Add aria-label for accessibility
+        >
+          <item.icon className='text-2xl text-blue-700 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-115
+          group-hover:translate-y-[-2px] group-hover:text-violet-800' />
+        </a>
+              ))}
 
-    </a>
-))}
 </div>
 
 </div>

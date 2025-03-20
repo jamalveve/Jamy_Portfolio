@@ -24,6 +24,7 @@ import PROJECT_IMG_3 from "../assets/Images/Tic_Tac_Toe.jpg"
 import PROJECT_IMG_4 from "../assets/Images/sports.jpg"
 // import PROJECT_IMG_5 from "../assets/Images/multi_sport.webp"
 import PROJECT_IMG_5 from "../assets/Images/sport_betting.jpeg"
+import { FaGit } from "react-icons/fa6";
 
 
 export const MENU_LINKS = [
@@ -233,18 +234,24 @@ export const ABOUT_ME = {
 ✅ Debug and analyze logs using Kibana to ensure optimal system performance.
 ✅ Deliver front-end enhancements using React and JavaScript, improving user experience.`,
     socialLinks: [
-        { id: "01", label: "LinkedIn", icon: FaLinkedin, link: "#" },
-        { id: "02", label: "Naukuri", icon:FaLinkedin , link: "#" },
-        { id: "03", label: "Instagram", icon: FaInstagram, link: "#" },
-        { id: "03", label: "Twitter", icon: BiLogoTwitter, link: "#" },
-        // { id: "04", label: "Instagram", icon: FaLinkedin, link: "#" },
+        { id: "01", label: "LinkedIn", icon: FaLinkedin, link: "https://www.linkedin.com/in/jamal-veve/" },
+        { id: "02", label: "Naukuri", icon:FaLinkedin , link: "https://www.naukri.com/mnjuser/profile" },
+        { id: "03", label: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/_xplorin_unseen_/" },
+        { id: "04", label: "Twitter", icon: BiLogoTwitter, link: "https://x.com/home?lang=en" },
+        { id: "05", label: "GitHub", icon: FaGitAlt, link: "https://github.com/jamalveve" },
     ],
     email: "jamalveve01@gmail.com",
     phone: "918940878122",
     website: "linkedin"
 }
 
-
+export const SOCI = [
+    { id: "01", label: "LinkedIn", icon: FaLinkedin, link: "https://www.linkedin.com/in/jamal-veve/" },
+    { id: "02", label: "Naukuri", icon:FaLinkedin , link: "https://www.naukri.com/mnjuser/profile" },
+    { id: "03", label: "Instagram", icon: FaInstagram, link: "https://www.instagram.com/_xplorin_unseen_/" },
+    { id: "04", label: "Twitter", icon: BiLogoTwitter, link: "https://x.com/home?lang=en" },
+    { id: "05", label: "GitHub", icon: FaGitAlt, link: "https://github.com/jamalveve" },
+];
 export const PROJECTS = [
     {
         id: 1, title:

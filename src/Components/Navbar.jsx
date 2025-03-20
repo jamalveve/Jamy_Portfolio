@@ -75,7 +75,7 @@ const Navbar = () => {
                 </ul>
 
                 <button className=' hidden md:block h-12 text-[15px] font-medium text-white bg-gradient-to-r from-blue-500 to-purple-500 
-                rounded-full px-6  transition-transform duration-200  hover:scale-108'
+                rounded-full px-6  transition-transform duration-200  hover:scale-108'     onClick={() => window.location.href = 'mailto:jamalveve01@gmail.com'} 
                 >Hire Me</button> 
             </div>
         </nav>
