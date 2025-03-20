@@ -6,6 +6,7 @@ import AboutMe from './sections/AboutMe'
 import TechnicalProfiency from './sections/TechnicalProfiency'
 import MyProject from './sections/MyProject'
 import ContactMe from './sections/ContactMe'
+import Footer from './sections/Footer'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <AboutMe />
       <MyProject/>
       <ContactMe/>
+      <Footer/>
 
       {/* 
       <Footer/> */}

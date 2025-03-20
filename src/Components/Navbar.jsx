@@ -57,7 +57,7 @@ const Navbar = () => {
                 </button>
 
 
-                <ul className={`${isOpen ? "flex" : "hidden"} menu-wrapper`}>
+                <ul className={`${isOpen ? "flex" : "hidden"} menu-wrapper text-[18px]`}>
                     {MENU_LINKS.map((itemS) => (
                         <li key={itemS.id}>
                             <Link

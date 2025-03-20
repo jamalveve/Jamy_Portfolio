@@ -1,11 +1,12 @@
 import React from 'react';
 
 const Footer = () => {
-    return <div>
-                <p>footer</p>
-
-    </div>;
-}
+    return(
+        <div className='bg-violet-300 text-blue-800 text-center p-5'>
+Made with ❤️...Happy Learning!!Happy Coding
+        </div>
+    );
+} 
 
 
 
