@@ -57,7 +57,7 @@ export const SKILLS = [
         id: "01",
         icon: FaReact,
         skill: "React JS",
-        progress: 95,
+        progress: 50,
         type: "frontend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -85,7 +85,7 @@ export const SKILLS = [
         id: "04",
         icon: BiLogoTailwindCss,
         skill: "Tailwind Css",
-        progress: 95,
+        progress: 80,
         type: "frontend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -94,7 +94,7 @@ export const SKILLS = [
         id: "05",
         icon: BiLogoJavascript,
         skill: "JS",
-        progress: 95,
+        progress: 70,
         type: "frontend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     }, 
@@ -103,7 +103,7 @@ export const SKILLS = [
         id: "06",
         icon: FaJava,
         skill: "Java",
-        progress: 95,
+        progress: 90,
         type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -113,7 +113,6 @@ export const SKILLS = [
         id: "07",
         icon: BiLogoNodejs,
         skill: "node js",
-        progress: 95,
         type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -122,7 +121,7 @@ export const SKILLS = [
         id: "08",
         icon: BiLogoSpringBoot,
         skill: "Spring Boot",
-        progress: 95,
+        progress: 80,
         type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -130,7 +129,7 @@ export const SKILLS = [
         id: "09",
         icon: FaJenkins,
         skill: "Jenkins",
-        progress: 95,
+        progress: 80,
         type: "Tools",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -138,7 +137,7 @@ export const SKILLS = [
         id: "10",
         icon: SiPostman,
         skill: "Postman",
-        progress: 95,
+        progress: 70,
         type: "Tools",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -146,7 +145,7 @@ export const SKILLS = [
         id: "11",
         icon: SiJira,
         skill: "Jira",
-        progress: 95,
+        progress: 80,
         type: "Tools",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -154,7 +153,7 @@ export const SKILLS = [
         id: "12",
         icon: FaReact,
         skill: "Fortify",
-        progress: 95,
+        progress: 50,
         type: "Tools",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -162,7 +161,7 @@ export const SKILLS = [
         id: "13",
         icon: FaReact,
         skill: "Elastic-Search",
-        progress: 95,
+        progress: 80,
         type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -178,7 +177,7 @@ export const SKILLS = [
         id: "15",
         icon: VscCommentUnresolved,
         skill: "Problem Solving",
-        progress: 95,
+        progress: 90,
         type: "Skills",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -186,7 +185,7 @@ export const SKILLS = [
         id: "16",
         icon: FaReact,
         skill: "someother",
-        progress: 95,
+        progress: 50,
         type: "Skills",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -195,7 +194,7 @@ export const SKILLS = [
         id: "17",
         icon: SiMysql,
         skill: "SQL",
-        progress: 95,
+        progress: 75,
         type: "Backend",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
@@ -203,22 +202,22 @@ export const SKILLS = [
         id: "18",
         icon: FaGitAlt,
         skill: "Git",
-        progress: 95,
         type: "Tools",
+        progress: 90,
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
     {
         id: "19",
         icon: SiEclipseche,
         skill: "Eclipse",
-        progress: 95,
         type: "Tools",
+        progress: 90,
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     }, {
         id: "20",
         icon: VscVscode,
         skill: "VsCode",
-        progress: 95,
+        progress: 90,
         type: "Tools",
         description: "Experienced in building scalable, component-driven web applications using React. js. Proficient in "
     },
