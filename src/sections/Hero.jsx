@@ -28,10 +28,10 @@ const Hero = () => {
                 <div className='order-2 lg:order-1 text-center lg:text-left mt-14 mx-13'>
                     <h3 className='text-2xl font medium text-black'>👋🏻 Hi,I'm Jamal Veve</h3>
                     <h1 className='w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] 
-                    mt-3 bg-gradient-to-r from-blue-500 to-purple-500  bg-clip-text text-transparent'>Building scalable & usercenteric web Apps</h1>
+                    mt-3 bg-gradient-to-r from-blue-500 to-purple-500  bg-clip-text text-transparent'>Full-Stack Engineer | Java & Spring Boot Specialist | Building Scalable Web Apps</h1>
                     <p className='w-full lg:w-[500px] text-sm lg:text-base mt-4'>
                         I'm a passionate Full Stack Developer Crafiting responsive,accessible,and dynamic
-                        web experiences using React,Js,Node.js,Tailwindcss,Java,SQL.
+                        web experiences using Java,Spring Boot,Js,Tailwindcss,SQL.
                     </p>
                     <div className='flex justify-center lg;justify-start gap-4 md:gap-8 mt-6'>
                         <button className='flex-1 md:flex-none action-btn-one btn-scale-anim ' onClick={scrollToProjects}
