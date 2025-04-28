@@ -2,7 +2,7 @@ import React from 'react';
 import Profile_Pic from '../assets/Images/Profile_Pic.png'
 import { STATS } from '../utils/data';
 import StatInfoCard from '../Components/StatInfoCard'; // Ensure this path is correct
-import resumeFile from '../assets/Jamal Veve_Updated Resume.pdf'; // Correctly import your resume file
+import resumeFile from '../assets/Images/Jamal Veve_Updated Resume.pdf'; // Correctly import your resume file
 
 const Hero = () => {
 
